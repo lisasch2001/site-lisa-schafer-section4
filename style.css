@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
-body{
-	font-family: Raleway;
+head{
+font-family: Amatic SC;
 }
+
+
 h1{
 	color: black;
+	font-size: 75px;
+	font-family: Amatic SC;
 }
+
 h2{
-	color: grey;
-	font-size: 40px;
+	color: black;
+	font-size: 55px;
+	font-family: Amatic SC;
 }
 body{
 	background: floralwhite;
@@ -17,8 +24,9 @@ body {
 	text-align: center;
 }
 h3{
-	color: grey;
-	font-size: 40px;
+	color: black;
+	font-size: 55px;
+	font-family: Amatic SC;
 }
 
 .button-blue {
@@ -26,6 +34,7 @@ h3{
 	background-color: floralwhite;
 	border-radius: 7px;
 	color: black;
+	display: block;
 }
 .list-inline li {
 	display: inline;
@@ -36,7 +45,7 @@ h3{
 }
 
 img{
-	border-radius: 40%;
+	border-radius: 30%;
 }
 
 div{
@@ -50,4 +59,48 @@ padding: 24px 48px;
 
 #introduction-text {
 	margin-bottom: 40px;
+}
+
+i{
+	font-size: 35px;
+	color: #46a6e0
+}
+
+.fa-instagram:{
+	padding: 2px;
+	background-color: deeppink;
+	border-radius: 4px;
+	color: white;
+}
+
+.fa-instagram:hover{
+	background-color: white;
+	color: deeppink;
+	transition: 0.5s;
+}
+
+.fa-github-square:{
+	padding: 2px;
+	background-color: deeppink;
+	border-radius: 4px;
+	color: white;
+}
+
+.fa-github-square:hover{
+	background-color: white;
+	color: deeppink;
+	transition: 0.5s;
+}
+
+.fa-airbnb:{
+	padding: 2px;
+	background-color: deeppink;
+	border-radius: 4px;
+	color: white;
+}
+
+.fa-airbnb:hover{
+	background-color: white;
+	color: deeppink;
+	transition: 0.5s;
 }
