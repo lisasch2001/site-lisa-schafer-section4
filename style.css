@@ -66,6 +66,12 @@ i{
 	color: #46a6e0
 }
 
+ul{
+	padding: 0;
+}
+
+
+
 .fa-instagram:{
 	padding: 2px;
 	background-color: deeppink;
@@ -104,3 +110,5 @@ i{
 	color: deeppink;
 	transition: 0.5s;
 }
+
+
